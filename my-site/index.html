@@ -6,90 +6,47 @@
     <title>Document</title>
   </head>
   <body>
-    <a href="#generation">поколения эвм</a>
-
-    <div>
-      <h2>История эвм</h2>
-      <p>первые <span>электронные вычислительные машины</span> появились в середине xx века</p>
-    </div>
-
-    <div>
-      <p style="background-color: orange">
-        тег <span style="background-color: yellow">span</span> используется для выделение части текста внутри строки
-      </p>
-    </div>
-
-    <p><strong>эвм</strong>- это электронная вычислительная машина</p>
-    <p><strong>важно:</strong>первые ЭВМ занимали целые помещения</p>
-    <p><i>курсивный текст и логически выделенный текст</i></p>
-    <p><u>информация устарела</u></p>
-    <p><u>подчёркнутый текст</u></p>
-    <p>формула воды: H<sub>2</sub>O</p>
-    <p>степень числа: 2<sup>3</sup>= 8</p>
-    <p><small>мелкий текст</small></p>
-    <p><mark>выделенный важный фрагмент</mark></p>
-    <p>
-      первая строка
-      <br />
-      вторая строка
-    </p>
-    <hr />
-    <p>пример кода:</p>
-    <code> &lt;h1&gt;история ЭВМ&lt;/h1&gt; </code>
-
-    <a href="info.html">
-      <button>перейти к истории</button>
-    </a>
-    <hr />
-    <h2 id="generation">поколения эвм</h2>
-    <p>описание поколений эвм</p>
-
-    <a href="../README.md" download> скачать README </a>
-    <a href="mailto:pavel.pavel718234@gmail.com"> написать </a>
-    <a href="tel:+848328774"> позвонить и быть посланным </a>
-
-    <img src="img/computer_generation_1.jpg" alt="error" width="300" height="200" loading="lazy" />
-
-    <blockquote cite="https://ru.wikipedia.ord/wiki/ЭВМ">
-      ЭВМ — электронная вычислительная машина — комплекс технических, аппаратных и программных средств, предназначенных для автоматической
-      обработки информации, вычислений, автоматического управления
-    </blockquote>
-    <cite>источник: википедия</cite>
-
-    <p>
-      по словам учённых:
-      <q>развитие вычислительной техники изменило ход истории</q>
-    </p>
-
-    <video controls width="400">
-      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
-      браузер не поддерживает
-    </video>
-    <audio controls>
-      <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg" />
-      браузер не поддерживает
-    </audio>
-
-    <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=lWn3NvMZnZ1CcRhp"
-        title="история эвм"
-        allowfullscreen>
-    </iframe>
-
-    <form>
-        <label> телефон: <input type="tel" placeholder="+7 (___) ___-__-__" /> </label>
+    <header>
+      <h1>история развития ЭВМ</h1>
+    </header>
+    <nav>
+      <a href="#gen2">поколения</a>
+      <a href="media.html">медиа</a>
+      <a href="forms.html">формы</a>
+      <a href="vector.html" target="_blank">SVG</a>
+    </nav>
+    <main>
+      <section id="gen1">
+        <h2>первое поколение ЭВМ</h2>
+        <p>пример якорной ссылки и текстого блока</p>
+        <blockquote cite="https://ru.wikipedia.org/wiki/ЭВМ">ЭВМ первого поколения занимали целые помещения</blockquote>
+        <cite>источник: википедия</cite>
         <br /><br />
-        <label> email: <input type="email" placeholder="example@mail.com" /> </label>
+        <a href="mailto:genius@gmail.com">написать письмо</a>
+        <a href="tel:+7984899790432">позвонить</a>
+        <button>кнопка</button>
+      </section>
+      <aside>
+        <h3>фото</h3>
+        <img src="img/computer_generation_1.png" alt="error" height="150" />
+      </aside>
+      <section id="gen2">
+        <h2>второе поколение ЭВМ</h2>
+        <p>пример якорной ссылки и текстого блока</p>
+        <blockquote cite="https://ru.wikipedia.org/wiki/ЭВМ">во втором поколении ЭВМ появились ОС</blockquote>
+        <cite>источник: википедия</cite>
         <br /><br />
-        <label> пароль: <input type="password" /> </label>
-        <br /><br />
-        <label> сайт: <input type="url" placeholder="https://example.com" /> </label>
-        <br /><br />
-        <label> поиск: <input type="search" placeholder="поиск..." /> </label>
-        <br /><br />
-        <input type="submit" value="отправить" />
-    </form>
+        <a href="mailto:genius@gmail.com">написать письмо</a>
+        <a href="tel:+798686596856">позвонить</a>
+        <button>кнопка</button>
+      </section>
+      <aside>
+        <h3>фото</h3>
+        <img src="img/computer_generation_2.png" alt="error" height="150" />
+      </aside>
+    </main>
+    <footer>
+        <p title="подсказка">лабораторная работа №6 - HTML + CSS</p>
+    </footer>
   </body>
 </html>
