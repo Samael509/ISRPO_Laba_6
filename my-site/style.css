@@ -1,0 +1,6 @@
+p {
+  font-size: 24px; /* применяется ко все p */
+}
+.btn-primary{
+    background-color: blue;
+}
