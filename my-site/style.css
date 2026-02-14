@@ -95,3 +95,19 @@ select{
   padding: 6px;
   margin-top: 4px;
 }
+
+video{
+  display: block; /* лишнее пространство */
+  background: #000;
+  min-height: 200px; /* минимальная высота для видео-блока */
+}
+
+audio{
+  width: 100%; /* на всю ширину */
+  margin: 15px 0;
+}
+
+iframe{
+  border: 1px solid #2a6df4; /* рамка вокруг iframe */
+  background: white; /* если iframe пустой */
+}
