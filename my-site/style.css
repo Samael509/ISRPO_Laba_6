@@ -3,4 +3,13 @@ p {
 }
 .btn-primary{
     background-color: blue;
+    color: white;
+}
+#gen1{
+  border: 2px solid black;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
